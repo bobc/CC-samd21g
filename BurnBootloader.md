@@ -44,7 +44,7 @@ cc-samd21g.bootloader.file=cc/samd21_sam_ba_cc.bin
 * C:\Users\(username)\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.6.xx
 ```
 
-And store [custom bootloader](Software\bootloader) for this board shown as below.
+And store [custom bootloader](Software/bootloader) for this board shown as below.
 
 ```
     ^\1.6.xx\bootloaders\cc\samd21_sam_ba_cc.bin
