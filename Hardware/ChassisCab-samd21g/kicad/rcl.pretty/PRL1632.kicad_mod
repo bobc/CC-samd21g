@@ -1,0 +1,69 @@
+(module PRL1632
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "PRL1632 are realized as 1W for 3.2 ÁE1.6mm(1206); Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf")
+ (fp_text reference >NAME
+  (at 1.895953 -2.435000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.228571 2.365000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start 0.727500 1.522800)
+  (end -0.727700 1.522800)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.727500 -1.522800)
+  (end -0.715200 -1.522800)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy -0.800000 -1.600000)
+   (xy -0.400000 -1.600000)
+   (xy -0.400000 1.600000)
+   (xy -0.800000 1.600000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.400000 -1.600000)
+   (xy 0.800000 -1.600000)
+   (xy 0.800000 1.600000)
+   (xy 0.400000 1.600000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 2 smd rect
+  (at 0.822000 0.000000 0.000000)
+  (size 1.000000 3.200000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 1 smd rect
+  (at -0.822000 0.000000 0.000000)
+  (size 1.000000 3.200000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

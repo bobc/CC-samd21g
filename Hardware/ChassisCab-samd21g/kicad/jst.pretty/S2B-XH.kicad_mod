@@ -1,0 +1,128 @@
+(module "S2B-XH"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (fp_text reference >NAME
+  (at -4.763000 -0.596762 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -0.399643 -3.400500 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start 3.700000 9.200000)
+  (end 3.700000 2.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 3.700000 2.200000)
+  (end 3.700000 -2.300000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 3.700000 -2.300000)
+  (end 3.000000 -2.300000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start -3.000000 -2.300000)
+  (end -3.700000 -2.300000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start -3.700000 -2.300000)
+  (end -3.700000 2.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start -3.700000 2.200000)
+  (end -3.700000 9.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start -3.700000 9.200000)
+  (end 3.700000 9.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 3.700000 2.200000)
+  (end 3.000000 2.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 3.000000 2.200000)
+  (end -3.000000 2.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start -3.000000 2.200000)
+  (end -3.700000 2.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start -3.000000 -2.300000)
+  (end -3.000000 2.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 3.000000 -2.300000)
+  (end 3.000000 2.200000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.540000 0.000000)
+   (xy -1.000000 0.000000)
+   (xy -1.000000 2.200000)
+   (xy -1.540000 2.200000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 1.000000 0.000000)
+   (xy 1.540000 0.000000)
+   (xy 1.540000 2.200000)
+   (xy 1.000000 2.200000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 2 thru_hole circle
+  (at 1.270000 0.000000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 1 thru_hole circle
+  (at -1.270000 0.000000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

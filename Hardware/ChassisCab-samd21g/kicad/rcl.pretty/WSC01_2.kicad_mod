@@ -1,0 +1,85 @@
+(module WSC01_2
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Wirewound Resistors, Precision Power; Source: VISHAY wscwsn.pdf")
+ (fp_text reference >NAME
+  (at 0.751953 -2.539000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.084572 2.541000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -2.450000 -1.475000)
+  (end -2.450000 1.475000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -2.450000 1.475000)
+  (end 2.450000 1.475000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 2.450000 1.475000)
+  (end 2.450000 -1.475000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 2.450000 -1.475000)
+  (end -2.450000 -1.475000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -2.450000 -1.475000)
+  (end -2.450000 -1.106000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -2.450000 1.106000)
+  (end -2.450000 1.475000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 2.450000 -1.106000)
+  (end 2.450000 -1.475000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 2.450000 1.475000)
+  (end 2.450000 1.106000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (pad 1 smd rect
+  (at -2.100000 0.000000 0.000000)
+  (size 2.160000 1.780000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 2.100000 0.000000 0.000000)
+  (size 2.160000 1.780000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

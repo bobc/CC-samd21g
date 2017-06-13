@@ -1,0 +1,10 @@
+EESchema-DOCLIB Version 2.3
+#
+$CMP A3L-LOC-MOD
+D FRAME; DIN A3, landscape with location and doc. field
+$ENDCMP
+#
+$CMP PAD
+$ENDCMP
+#
+#End Library

@@ -1,0 +1,7 @@
+EESchema-DOCLIB Version 2.3
+#
+$CMP SAMD21G18A
+D Atmel D21 32bit ARM Cortex-M0  microcontroller - 48 PIN TQFP; 256KB flash memory + 32KB SRAM
+$ENDCMP
+#
+#End Library

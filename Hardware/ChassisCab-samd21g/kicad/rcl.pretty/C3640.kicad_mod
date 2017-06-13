@@ -1,0 +1,69 @@
+(module C3640
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "CAPACITOR; Source: AVX .. aphvc.pdf")
+ (fp_text reference >NAME
+  (at -1.351047 -7.100000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -1.018428 6.620000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -3.832200 -5.049600)
+  (end 3.832200 -5.049600)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -3.832200 5.049600)
+  (end 3.832200 5.049600)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -4.570000 -5.100000)
+   (xy -3.050000 -5.100000)
+   (xy -3.050000 5.100000)
+   (xy -4.570000 5.100000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 3.050000 -5.100000)
+   (xy 4.568800 -5.100000)
+   (xy 4.568800 5.100000)
+   (xy 3.050000 5.100000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -4.267000 0.000000 0.000000)
+  (size 2.600000 10.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 4.267000 0.000000 0.000000)
+  (size 2.600000 10.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

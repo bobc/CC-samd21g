@@ -1,0 +1,105 @@
+(module VTA52
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements; MIL SIZE RBR52; Source: VISHAY .. vta56.pdf")
+ (fp_text reference >NAME
+  (at -0.514047 -5.715000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.453572 0.000000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start -15.240000 0.000000)
+  (end -13.970000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_line
+  (start 12.622500 -0.025000)
+  (end 12.622500 -4.725000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 12.622500 -4.725000)
+  (end -12.622500 -4.725000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -12.622500 -4.725000)
+  (end -12.622500 -0.025000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -12.622500 -0.025000)
+  (end -12.622500 4.650000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -12.622500 4.650000)
+  (end 12.622500 4.650000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 12.622500 4.650000)
+  (end 12.622500 -0.025000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 13.970000 0.000000)
+  (end 15.240000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_poly
+  (pts
+   (xy -13.970000 -0.304800)
+   (xy -12.567500 -0.304800)
+   (xy -12.567500 0.304800)
+   (xy -13.970000 0.304800)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 12.567500 -0.304800)
+   (xy 13.970000 -0.304800)
+   (xy 13.970000 0.304800)
+   (xy 12.567500 0.304800)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad 1 thru_hole circle
+  (at -15.240000 0.000000 0.000000)
+  (size 1.650000 1.650000)
+  (drill 1.100000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 15.240000 0.000000 0.000000)
+  (size 1.650000 1.650000)
+  (drill 1.100000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

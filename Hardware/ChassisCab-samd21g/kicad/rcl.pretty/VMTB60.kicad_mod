@@ -1,0 +1,93 @@
+(module VMTB60
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements; MIL SIZE RNC60; Source: VISHAY .. vta56.pdf")
+ (fp_text reference >NAME
+  (at -1.149047 -3.175000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -0.816429 0.000000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start -6.350000 0.000000)
+  (end -5.585000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_line
+  (start 4.687500 1.950000)
+  (end 4.687500 -1.950000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 4.687500 -1.950000)
+  (end -4.687500 -1.950000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -4.687500 -1.950000)
+  (end -4.687500 1.950000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -4.687500 1.950000)
+  (end 4.687500 1.950000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 5.585000 0.000000)
+  (end 6.350000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_poly
+  (pts
+   (xy -5.585000 -0.304800)
+   (xy -4.632500 -0.304800)
+   (xy -4.632500 0.304800)
+   (xy -5.585000 0.304800)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 4.632500 -0.304800)
+   (xy 5.585000 -0.304800)
+   (xy 5.585000 0.304800)
+   (xy 4.632500 0.304800)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad 1 thru_hole circle
+  (at -6.350000 0.000000 0.000000)
+  (size 1.650000 1.650000)
+  (drill 1.100000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 6.350000 0.000000 0.000000)
+  (size 1.650000 1.650000)
+  (drill 1.100000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

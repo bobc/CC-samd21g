@@ -1,0 +1,32 @@
+(module PAD
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (fp_text reference Ref
+  (at 0.000000 0.000000 0.000000)
+  (layer F.SilkS)
+ hide
+  (effects
+   (font
+    (size 1.500000 1.500000)
+    (thickness 0.150000)
+   )
+  )
+ )
+ (fp_text value Val
+  (at 0.000000 0.000000 0.000000)
+  (layer F.Fab)
+ hide
+  (effects
+   (font
+    (size 1.500000 1.500000)
+    (thickness 0.150000)
+   )
+  )
+ )
+ (pad 1 thru_hole circle
+  (at 0.000000 0.000000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 0.900000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

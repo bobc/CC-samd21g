@@ -1,0 +1,61 @@
+(module R4527
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Package 4527; Source: http://www.vishay.com/docs/31059/wsrhigh.pdf")
+ (fp_text reference >NAME
+  (at -2.419047 -4.445000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -2.086429 4.445000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -5.675000 3.375000)
+  (end 5.650000 3.375000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 5.650000 3.375000)
+  (end 5.650000 -3.375000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 5.650000 -3.375000)
+  (end -5.675000 -3.375000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -5.675000 -3.375000)
+  (end -5.675000 3.375000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (pad 1 smd rect
+  (at -4.575000 0.000000 0.000000)
+  (size 3.940000 5.840000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 4.575000 0.000000 0.000000)
+  (size 3.940000 5.840000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

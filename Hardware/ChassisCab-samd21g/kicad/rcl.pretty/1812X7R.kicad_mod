@@ -1,0 +1,81 @@
+(module 1812X7R
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Chip Monolithic Ceramic Capacitors Medium Voltage High Capacitance for General Use; Source: http://www.murata.com .. GRM43DR72E224KW01.pdf")
+ (fp_text reference >NAME
+  (at 1.350353 -2.630800 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.682971 3.138800 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -1.100000 -1.500000)
+  (end 1.100000 -1.500000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.100000 1.500000)
+  (end -1.100000 1.500000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -0.600000 -1.500000)
+  (end 0.600000 -1.500000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 0.600000 1.500000)
+  (end -0.600000 1.500000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_poly
+  (pts
+   (xy -1.400000 -1.600000)
+   (xy -1.100000 -1.600000)
+   (xy -1.100000 1.600000)
+   (xy -1.400000 1.600000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 1.100000 -1.600000)
+   (xy 1.400000 -1.600000)
+   (xy 1.400000 1.600000)
+   (xy 1.100000 1.600000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -1.425000 0.000000 0.000000)
+  (size 0.800000 3.500000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 1.425000 0.000000 0.000000)
+  (size 0.800000 3.500000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

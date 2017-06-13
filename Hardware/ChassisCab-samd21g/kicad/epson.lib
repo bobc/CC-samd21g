@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+# encoding utf-8
+#
+# FC-135
+#
+DEF FC-135 X 0 100 Y Y 1 F N
+F0 "X" -100 90 70 H V L BNN
+F1 "FC-135" -100 -150 70 H V L BNN
+F2 "epson:FC-135" -100 -250 50 H V L BNN
+DRAW
+P 2 0 0 6 45 0 100 0 N
+P 2 0 0 6 -100 0 -45 0 N
+P 2 0 0 10 20 -50 20 45 N
+P 2 0 0 10 20 45 -20 45 N
+P 2 0 0 10 -20 45 -20 -50 N
+P 2 0 0 10 -20 -50 20 -50 N
+S -60 -65 -40 60 0 0 1 F
+S 40 -65 60 60 0 0 1 F
+X 2 2 100 0 0 L 50 0 0 0 P  
+X 1 1 -100 0 0 R 50 0 0 0 P  
+ENDDRAW
+ENDDEF
+#
+#End Library
